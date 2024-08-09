@@ -125,14 +125,15 @@ opacity: 100%;
 
     }
     .box{
+        top:40px;
         text-shadow: rgb(0, 0, 0) 2px 2px 5px;
         left: 0;
         right: 0;
         background-color: #0e0e0e15;
         border-radius: 20px;
-        padding: 5px;
+        padding: 6px;
         text-align: center;
-        margin: 27px;
+        margin: 15px;
         margin-left: calc(var(--sizeindex) * 5.8);
         margin-right: calc(var(--sizeindex) * 5.8);
     }
