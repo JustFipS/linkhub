@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Bahiana&family=Bebas+Neue&family=Cairo:wght@200..1000&family=Codystar:wght@300;400&family=Josefin+Slab:wght@582&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Comforter+Brush&family=Rock+3D&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Comforter+Brush&display=swap');
 
 :root{
     --sizeindex: calc(1vw + 1vh)
@@ -9,7 +11,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #dadada;
+    background-color: rgb(206, 205, 193);
     justify-content: center;
     align-items: center;
     font-family: "Whisper", cursive;
@@ -18,7 +20,7 @@ html, body {
 
 *::selection{
     box-sizing: border-box;
-    color: rgb(67, 114, 6);
+    color: rgb(167, 168, 166);
 } 
 *{
     font-family: "Whisper", cursive;
@@ -41,7 +43,6 @@ a{
 
 
 
-
 .load {
     
     z-index: 2;
@@ -56,8 +57,8 @@ a{
     padding: calc(var(--sizeindex) * 3);
     pointer-events: none;
     text-align: center;
-    left: 50%;
-    top: 45%;
+    left: 45%;
+    top: 45%; 
     line-height: 1.3ch;
     transform: translate(-50%, -50%);
   }
@@ -68,7 +69,7 @@ a{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(201, 198, 173);
+    background: rgb(206, 205, 193);
     z-index: 2;
     animation: hidee 3.1s ease-in-out forwards;
 }
@@ -113,8 +114,8 @@ opacity: 100%;
         padding: 1px;
         text-align: center;
         margin: 14px;
-        margin-left: calc(var(--sizeindex) * 27.8);
-        margin-right: calc(var(--sizeindex) * 27.8);
+        margin-left: calc(var(--sizeindex) * 21.8);
+        margin-right: calc(var(--sizeindex) * 21.8); 
     }
   }
   
