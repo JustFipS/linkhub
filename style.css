@@ -30,6 +30,7 @@ html, body {
 }
 
 a{
+    z-index: 1;
     position:relative;
     padding: calc(var(--sizeindex) * 0.2);
     color:rgb(37, 37, 37);
@@ -45,7 +46,7 @@ a{
 
 .load {
     
-    z-index: 2;
+    z-index: 1;
     font-family: "Alegreya Sans", sans-serif;
     font-weight: 500;
     font-style: italic;
@@ -57,7 +58,7 @@ a{
     padding: calc(var(--sizeindex) * 3);
     pointer-events: none;
     text-align: center;
-    left: 45%;
+    left: 49%;
     top: 45%; 
     line-height: 1.3ch;
     transform: translate(-50%, -50%);
@@ -86,16 +87,19 @@ a{
 
 
 @keyframes hidee {
-0% {
-opacity: 100%;
-}
-
-70% {
+    0% {
     opacity: 100%;
-}
-100% {
-    opacity: 0%;
-}}
+    }
+
+    70% {
+        opacity: 100%;
+        user-select: none;
+    }
+    100% {
+        opacity: 0%;
+
+    }
+  }
 
 @media (min-width: 1200px) {
     
