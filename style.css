@@ -102,7 +102,9 @@ a{
   }
 
 @media (min-width: 1200px) {
-    
+    .load{
+            left: 44%;
+    }
     a{
         font-size: calc(var(--sizeindex) * 2);
         margin-left: calc(var(--sizeindex) * 3);
